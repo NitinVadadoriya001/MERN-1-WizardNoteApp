@@ -1,0 +1,30 @@
+use technology = express,mongodb,mongodbcompass
+
+start mongodb using -->   $ sudo systemctl start mongod
+check status of mongodb --> $ sudo systemctl status mongod
+stop  mongodb --> $ sudo systemctl stop mongod
+
+entry point -> index.js
+
+cmd : nodemon index.js --->start server
+
+open mondodb compass
+
+open "thunder client"
+go to "Collections" section
+use all "request" for testing
+
+routes - folder:
+auth.js is use for authentication of users 
+notes.js is use for performe CRUD operation on notes
+
+models - folder
+Notes.js create a schema for notes
+Users.js create a schema for users
+
+middleware
+
+pre-install packeges:
+jwt
+express-validator
+bcryptjs

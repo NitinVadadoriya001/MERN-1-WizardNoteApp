@@ -1,0 +1,5 @@
+install
+
+npm i react-router-dom concurrently
+add "both" script in "package.json" file
+
