@@ -1,5 +1,13 @@
 install
 
+step-1: clone this repositories
+
+step-2 : install node_modules for frontend and backend 
+
+step-3 : install depedency/packages by reading Dought.txt and backend/Dought.txt
+
+
+
 npm i react-router-dom concurrently
 add "both" script in "package.json" file
 
